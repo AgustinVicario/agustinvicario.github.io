@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- se agrega el logo de la pagina -->
+    <link rel="icon" href="img/torredepisa.png" />
+    <!-- se utiliza este scrip para lo iconos de social media -->
+    <script
+      src="https://kit.fontawesome.com/83ab592238.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Titulo -->
+    <title>Il Piccolli</title>
+    <!-- Aplicando bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+      <header class="header">
+        <img src="img/logo.png" alt="Logodelrestaurant" />    
+        <!-- Slogan -->
+        <h2 class="text">Come la casa di mamma</h2> 
+          <!-- Menu de navegacion responsive --> 
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-none">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                  <li class="nav-item active">
+                    <a href="/index.html" class="lista1">
+                      Inicio 
+                      <span class="sr-only"></span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/menu.html" class="lista1">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/reservas.html" class="lista2">Reservas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/contacto.html" class="lista2">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/sucursal.html" class="lista3">Sucursales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/quienessomos.html" class="lista3">¿Quienes Somos?</a>
+                  </li>
+                </div>
+            </nav>
+          </div>
+        </header>
+    <!-- Menu con flexbox -->
+    <div class="container">
+      <div class="menu">
+        <h2 class="menu-group-heading">Para Picar</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              class="menu-item-image"
+              src="img/menu/entrada1.jpeg"
+              alt="bastonesdemozzarella"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Bastones de Mozzarella</span>
+                <span class="menu-item-price">$$$</span>
+              </h3>
+              <p class="menu-item-description">
+                Nunc efficitur felis vel mi efficitur, sed molestie sem
+                scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                tincidunt nulla.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              class="menu-item-image"
+              src="img/menu/entrada2.jpeg"
+              alt="gamberiallapiccolli"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Gamberi Alla Piccolli</span>
+                <span class="menu-item-price">$$$</span>
+              </h3>
+              <p class="menu-item-description">
+                Nunc efficitur felis vel mi efficitur, sed molestie sem
+                scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                tincidunt nulla.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2 class="menu-group-heading">Ensaldas</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              class="menu-item-image"
+              src="img/menu/ensalada1.jpeg"
+              alt="ensaladacaesarconpollo"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Ensalada Caesar con Pollo</span>
+                <span class="menu-item-price">$$$</span>
+              </h3>
+              <p class="menu-item-description">
+                Nunc efficitur felis vel mi efficitur, sed molestie sem
+                scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                tincidunt nulla.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              class="menu-item-image"
+              src="img/menu/ensalada2.jpeg"
+              alt="ensaladagamberi"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Ensalada Gamberi</span>
+                <span class="menu-item-price">$$$</span>
+              </h3>
+              <p class="menu-item-description">
+                Nunc efficitur felis vel mi efficitur, sed molestie sem
+                scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                tincidunt nulla.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2 class="menu-group-heading">Nostra Pasta</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              class="menu-item-image"
+              src="img/menu/pasta1.jpeg"
+              alt="fettuciniallabrocolino"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Fettucini Alla Brocolino</span>
+                <span class="menu-item-price">$$$</span>
+              </h3>
+              <p class="menu-item-description">
+                Nunc efficitur felis vel mi efficitur, sed molestie sem
+                scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                tincidunt nulla.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              class="menu-item-image"
+              src="img/menu/pasta2.jpeg"
+              alt="gnocchidispinacacaruso"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Gnocchi di Spinaca Alla Piccolisa</span>
+                <span class="menu-item-price">$$$</span>
+              </h3>
+              <p class="menu-item-description">
+                Nunc efficitur felis vel mi efficitur, sed molestie sem
+                scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                tincidunt nulla.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              class="menu-item-image"
+              src="img/menu/pasta3.jpeg"
+              alt="fusilliallfierrito"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Fusilli all Fierrito</span>
+                <span class="menu-item-price">$$$</span>
+              </h3>
+              <p class="menu-item-description">
+                Nunc efficitur felis vel mi efficitur, sed molestie sem
+                scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                tincidunt nulla.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              class="menu-item-image"
+              src="img/menu/pasta4.jpeg"
+              alt="malfatti"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Malfatti Alla Melissa</span>
+                <span class="menu-item-price">$$$</span>
+              </h3>
+              <p class="menu-item-description">
+                Nunc efficitur felis vel mi efficitur, sed molestie sem
+                scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                tincidunt nulla.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2 class="menu-group-heading">Nostra Cucina</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              class="menu-item-image"
+              src="img/menu/carne1.jpeg"
+              alt="Lomoconpapas"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Lomo con Papas</span>
+                <span class="menu-item-price">$$$</span>
+              </h3>
+              <p class="menu-item-description">
+                Nunc efficitur felis vel mi efficitur, sed molestie sem
+                scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                tincidunt nulla.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              class="menu-item-image"
+              src="img/menu/carne2.jpeg"
+              alt="polloalverdeo"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Pollo al Verdeo</span>
+                <span class="menu-item-price">$$$</span>
+              </h3>
+              <p class="menu-item-description">
+                Nunc efficitur felis vel mi efficitur, sed molestie sem
+                scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                tincidunt nulla.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              class="menu-item-image"
+              src="img/menu/carne3.jpeg"
+              alt="abadejoconalcaparras"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Abadejo con Alcaparras</span>
+                <span class="menu-item-price">$$$</span>
+              </h3>
+              <p class="menu-item-description">
+                Nunc efficitur felis vel mi efficitur, sed molestie sem
+                scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                tincidunt nulla.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              class="menu-item-image"
+              src="img/menu/carne4.jpeg"
+              alt="abadejoallagamberi"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Abadejo Alla Gamberi</span>
+                <span class="menu-item-price">$$$</span>
+              </h3>
+              <p class="menu-item-description">
+                Nunc efficitur felis vel mi efficitur, sed molestie sem
+                scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                tincidunt nulla.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="menu">
+          <h2 class="menu-group-heading">Risottos</h2>
+          <div class="menu-group">
+            <div class="menu-item">
+              <img
+                class="menu-item-image"
+                src="img/menu/risotto1.jpeg"
+                alt="risottoallaspagnolo"
+              />
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name"> Risotto Alla Spagnolo</span>
+                  <span class="menu-item-price">$$$</span>
+                </h3>
+                <p class="menu-item-description">
+                  Nunc efficitur felis vel mi efficitur, sed molestie sem
+                  scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                  tincidunt nulla.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-item-image"
+                src="img/menu/risotto2.jpeg"
+                alt="risottoallafrancese"
+              />
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name"> Risotto Alla Francese</span>
+                  <span class="menu-item-price">$$$</span>
+                </h3>
+                <p class="menu-item-description">
+                  Nunc efficitur felis vel mi efficitur, sed molestie sem
+                  scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                  tincidunt nulla.
+                </p>
+              </div>
+            </div>
+          </div>
+            <h2 class="menu-group-heading">Il Dolce</h2>
+            <div class="menu-group">
+              <div class="menu-item">
+                <img
+                  class="menu-item-image"
+                  src="img/menu/postre1.jpeg"
+                  alt="Tiramisu"
+                />
+                <div class="menu-item-text">
+                  <h3 class="menu-item-heading">
+                    <span class="menu-item-name">Tiramisu</span>
+                    <span class="menu-item-price">$$$</span>
+                  </h3>
+                  <p class="menu-item-description">
+                    Nunc efficitur felis vel mi efficitur, sed molestie sem
+                    scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                    tincidunt nulla.
+                  </p>
+                </div>
+              </div>
+              <div class="menu-item">
+                <img
+                  class="menu-item-image"
+                  src="img/menu/postre2.jpeg"
+                  alt="flancasero"
+                />
+                <div class="menu-item-text">
+                  <h3 class="menu-item-heading">
+                    <span class="menu-item-name">Flan Casero</span>
+                    <span class="menu-item-price">$$$</span>
+                  </h3>
+                  <p class="menu-item-description">
+                    Nunc efficitur felis vel mi efficitur, sed molestie sem
+                    scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                    tincidunt nulla.
+                  </p>
+                </div>
+              </div>
+              <div class="menu-item">
+                <img
+                  class="menu-item-image"
+                  src="img/menu/postre3.jpeg"
+                  alt="volcandechocolate"
+                />
+                <div class="menu-item-text">
+                  <h3 class="menu-item-heading">
+                    <span class="menu-item-name">Vulcano di Cioccolato
+                    </span>
+                    <span class="menu-item-price">$$$</span>
+                  </h3>
+                  <p class="menu-item-description">
+                    Nunc efficitur felis vel mi efficitur, sed molestie sem
+                    scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                    tincidunt nulla.
+                  </p>
+                </div>
+              </div>
+              <div class="menu-item">
+                <img
+                  class="menu-item-image"
+                  src="img/menu/postre4.jpeg"
+                  alt="crepeegelato"
+                />
+                <div class="menu-item-text">
+                  <h3 class="menu-item-heading">
+                    <span class="menu-item-name">Crepe e Gelato</span>
+                    <span class="menu-item-price">$$$</span>
+                  </h3>
+                  <p class="menu-item-description">
+                    Nunc efficitur felis vel mi efficitur, sed molestie sem
+                    scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                    tincidunt nulla.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <h2 class="menu-group-heading">Bebidas</h2>
+            <div class="menu-group">
+              <div class="menu-item">
+                <img
+                  class="menu-item-image"
+                  src="img/menu/bebidas1.jpeg"
+                  alt="agus"
+                />
+                <div class="menu-item-text">
+                  <h3 class="menu-item-heading">
+                    <span class="menu-item-name">Agua</span>
+                    <span class="menu-item-price">$$$</span>
+                  </h3>
+                  <p class="menu-item-description">
+                    Nunc efficitur felis vel mi efficitur, sed molestie sem
+                    scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                    tincidunt nulla.
+                  </p>
+                </div>
+              </div>
+              <div class="menu-item">
+                <img
+                  class="menu-item-image"
+                  src="img/menu/bebidas2.jpeg"
+                  alt="Cerveza"
+                />
+                <div class="menu-item-text">
+                  <h3 class="menu-item-heading">
+                    <span class="menu-item-name">Cerveza</span>
+                    <span class="menu-item-price">$$$</span>
+                  </h3>
+                  <p class="menu-item-description">
+                    Nunc efficitur felis vel mi efficitur, sed molestie sem
+                    scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                    tincidunt nulla.
+                  </p>
+                </div>
+              </div>
+              <div class="menu-item">
+                <img
+                  class="menu-item-image"
+                  src="img/menu/bebidas3.jpeg"
+                  alt="gaseosa"
+                />
+                <div class="menu-item-text">
+                  <h3 class="menu-item-heading">
+                    <span class="menu-item-name">Gaseosa</span>
+                    <span class="menu-item-price">$$$</span>
+                  </h3>
+                  <p class="menu-item-description">
+                    Nunc efficitur felis vel mi efficitur, sed molestie sem
+                    scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                    tincidunt nulla.
+                  </p>
+                </div>
+              </div>
+              <div class="menu-item">
+                <img
+                  class="menu-item-image"
+                  src="img/menu/bebidas4.jpeg"
+                  alt="vino"
+                />
+                <div class="menu-item-text">
+                  <h3 class="menu-item-heading">
+                    <span class="menu-item-name">Vino</span>
+                    <span class="menu-item-price">$$$</span>
+                  </h3>
+                  <p class="menu-item-description">
+                    Nunc efficitur felis vel mi efficitur, sed molestie sem
+                    scelerisque. Fusce orci risus, congue eu mauris nec, pretium
+                    tincidunt nulla.
+                  </p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+    <br />
+<!-- footer con social media -->
+    <footer>
+      <div class="redes-container">
+        <ul>
+          <li>
+            <a href="#" class="facebook">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="twitter">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="whatsapp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </li>
+        </ul>  
+      </div>
+      <div class="textofooter">
+        Copyright © 2021 Todos los derechos reservados por Il Piccolli
+      </div>
+    </footer>    
+          <!-- Aplicando bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  </body>
+</html>
