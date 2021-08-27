@@ -1,0 +1,43 @@
+/**CONTACTO**/
+fieldset {
+  legend {
+    color: white;
+  }
+  textarea {
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.formulario1 {
+  box-sizing: border-box;
+  border-radius: 7px;
+  color: black;
+  background-color: rgba(124, 124, 124, 0.445);
+  text-align: center;
+  width: 750px;
+  height: auto;
+  padding: 30px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  label {
+    color: white;
+    font-size: 20px;
+  }
+}
+
+#boton {
+  background: $ColorFondoBoton;
+  color: $Fondo;
+  padding: 20px;
+  #boton:hover {
+    cursor: pointer;
+  }
+}

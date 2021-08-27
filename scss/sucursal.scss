@@ -1,0 +1,31 @@
+/**SUCURSALES**/
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 750px;
+  height: auto;
+  padding: 30px;
+  margin: auto;
+  font-family: cursive;
+}
+.suc {
+  background-color: #00a000;
+  text-align: center;
+}
+.dir {
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.hor {
+  background-color: #ee0000;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

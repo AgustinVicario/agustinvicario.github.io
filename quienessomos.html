@@ -15,11 +15,14 @@
     <title>Il Piccolli</title>
     <!-- Aplicando bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
       <header class="header">
-        <img src="img/logo.png" alt="Logodelrestaurant" />    
+        <!-- LOGO -->
+        <div class="logo">
+          <img src="img/logo.png" alt="Logodelrestaurant" />
+        </div>   
         <!-- Slogan -->
         <h2 class="text">Come la casa di mamma</h2> 
           <!-- Menu de navegacion responsive --> 
@@ -57,19 +60,28 @@
           </div>
         </header>
     <!-- El contenido es una breve explicacion de quienes somos -->
-    <div class="parrafoqs">
-      <p>
-        Il Piccolli nace en el 2021 como un emprendimiento familiar basándose en
-        la auténtica comida Italiana, donde nuestro objetivo principal es
-        transmitir las emociones que pueden generar nuestros platos, aportar
-        alimentos de calidad en un ambiente placentero a través de un servicio
-        excelente y así poder seguir manteniendo intacta la esencia a lo largo
-        de su historia y logrando distinguir el verdadero sabor de la cocina
-        italiana.
-      </p>
-    </div>
-    <!--Aca irian los iconos de redes sociales -->
-    <!-- Aplicando grid al footer -->
+    <section class="contenedor">
+      <div class="tarjeta">
+        <img class="tarjeta__img" src="img/restaurante.jpg" alt="imagendelrestaurante">
+        <div>
+          <h3 class="tarjeta__titulo">
+            Nuestra Historia..
+          </h3>
+          <p class="tarjeta__parrafo">
+            Il Piccolli nace en el 2021 como un emprendimiento familiar basándose en
+            la auténtica comida Italiana, donde nuestro objetivo principal es
+            transmitir las emociones que pueden generar nuestros platos, aportar
+            alimentos de calidad en un ambiente placentero a través de un servicio
+            excelente y así poder seguir manteniendo intacta la esencia a lo largo
+            de su historia y logrando distinguir el verdadero sabor de la cocina
+            italiana.
+          </p>
+          <a href="reservas.html" class="boton boton--derecha">
+            ¡Reserva ahora!
+          </a>
+        </div>
+    </section>
+    <!-- Footer con social media -->
     <footer>
       <div class="redes-container">
         <ul>

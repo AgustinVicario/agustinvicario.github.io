@@ -1,0 +1,53 @@
+/**Logo**/
+
+.header {
+  .logo {
+    text-align: center;
+  }
+}
+
+/*Subtitulo */
+
+.text {
+  display: flex;
+  justify-content: center;
+  background: #ccc;
+  text-transform: uppercase;
+  background: linear-gradient(#00a000, white, red);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/** Lista de navegacion**/
+
+.nav li a:hover {
+  background: black;
+  padding: 2px;
+}
+li {
+  color: black;
+  display: inline;
+  width: 120px;
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/** Lista de navegacion**/
+.lista1 {
+  color: $Color1;
+}
+
+.lista2 {
+  color: $Color2;
+}
+
+.lista3 {
+  color: $Color3;
+}
+.navbar-toggler {
+  background-color: $ColorNav;
+}
