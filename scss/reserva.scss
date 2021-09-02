@@ -8,9 +8,7 @@
 }
 
 .textoreserva {
-  color: white;
   text-align: center;
-  font-size: 20px;
   font-weight: 200;
   letter-spacing: 5px;
   font-family: cursive;
@@ -28,28 +26,14 @@ fieldset {
     width: 100%;
   }
 }
-
-.formulario {
+label input {
+  color: white;
+  font-size: 20px;
+}
+input {
+  width: 100%;
+  margin-bottom: 10px;
   box-sizing: border-box;
-  border-radius: 7px;
-  color: black;
-  background-color: rgba(124, 124, 124, 0.445);
-  text-align: center;
-  width: 750px;
-  height: auto;
-  padding: 30px;
-  margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
-
-  label {
-    color: white;
-    font-size: 20px;
-  }
-  input {
-    width: 100%;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-  }
 }
 
 #boton {

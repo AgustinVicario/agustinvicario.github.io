@@ -1,0 +1,37 @@
+$root-size: 4px;
+/* Operaciones */
+.textoreserva {
+  font-size: 5 * $root-size;
+}
+/* Condicionales */
+
+@if $root-size == 4px {
+  .textoreserva {
+    color: $Color2;
+  }
+}
+
+.textoreserva {
+  @if $root-size ==4px {
+  } @else if $root-size == 6px {
+    color: green;
+  }
+}
+
+/* Extend */
+.formulario {
+  box-sizing: border-box;
+  border-radius: 7px;
+  color: black;
+  background-color: rgba(124, 124, 124, 0.445);
+  text-align: center;
+  width: 750px;
+  height: auto;
+  padding: 30px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario1 {
+  @extend .formulario;
+}
