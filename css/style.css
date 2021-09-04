@@ -295,11 +295,14 @@ a {
   text-align: center;
   background-repeat: no-repeat; }
 
-.contenedor .tarjeta {
+.contenedor {
   display: flex;
   max-width: 1000px;
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto; }
+
+.tarjeta {
+  display: flex;
   background-color: #cccccc;
   border-radius: 15px;
   padding: 20px;
