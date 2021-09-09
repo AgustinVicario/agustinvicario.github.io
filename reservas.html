@@ -78,34 +78,36 @@
       <fieldset>
         <legend>Formulario de Reserva</legend>
         <div>
-          <label for="nombre"></label>
-          <input type="text" id="nombre" name="nombre" required placeholder="Nombre" />
-          <label for="apellido"></label>
-          <input type="text" id="apellido" name="apellido" required placeholder="Apellido"  />
+          <label for="nombre">
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombre" />
+          </label>
+          <label for="apellido">
+            <input type="text" id="apellido" name="apellido" required placeholder="Apellido"  />
+          </label>
         </div>
           <br>
         <div>
-          <label for="email"></label>
-          <input type="text" id="email" name="email" required placeholder="Correo Electronico"  />
-          <label for="telefono"></label>
-          <input type="tel" id="telefono" name="telefono" required placeholder="Telefono" />
+          <label for="email">
+            <input type="text" id="email" name="email" required placeholder="Correo Electronico"  />
+          </label>
+          <label for="telefono">
+            <input type="tel" id="telefono" name="telefono" required placeholder="Telefono" /> 
+          </label>
         </div>
         <br />
-        <div>
-          <label for="cantidaddecomensales"></label>
-          <input
-            type="number"
-            max="5"
-            min="1"
-            id="cantidaddecomensales"
-            name="cantidaddecomensales" placeholder="Cantidad de Comensales" required
-          />
-        </div>
-        <br />
-        <div>
-          <label for="limpiarformulario"></label>
-          <input type="reset" id="limpiarformulario" name="limpiarformulario" />
-          <br>
+          <label for="cantidaddecomensales">
+            Cantidad de Comensales
+          </label> 
+          <br>           
+          <select name="cantidaddecomensales" id="cantidaddecomensales">
+            <option value="cantidaddecomensales">1 Persona</option>
+            <option value="cantidaddecomensales">2 Personas</option>
+            <option value="cantidaddecomensales">3 Personas</option>
+            <option value="cantidaddecomensales">4 Personas</option>
+            <option value="cantidaddecomensales">5 Personas</option>
+            <option value="cantidaddecomensales">6 Personas</option>
+          </select>
+          <br />
           <div>
             <label for="sucursal">Elegi tu Sucursal</label>
             <br>
@@ -114,13 +116,34 @@
               <option value="caballito">Caballito</option>
               <option value="cañitas">Cañitas</option>
             </select>
-            <br>
-            <label for="fechadereserva">Elija la fecha de festejo que prefiera:</label>
-            <input type="date" id="fechadereserva" name="fechadereserva" min="2021-08-01" max="2021-123-31">
-            <label for="horariodereserva"> Horario de reserva</label>
-            <input type="time" id="horariodereserva" name="horariodereserva" />
           </div>
-          <input type="submit" id="boton" />          
+            <br>
+            <label for="fechadereserva">
+              Seleccionar Fecha            
+              <input type="date" id="fechadereserva" name="fechadereserva" min="2021-08-01" max="2021-123-31">
+            </label>
+          <div>          
+            <label for="horariodereserva"> Horario de reserva</label>
+            <br>
+            <select name="horariodereserva" id="horariodereserva">
+              <option value="horariodereserva">12:00hs</option>
+              <option value="horariodereserva">13:00hs</option>
+              <option value="horariodereserva">14:00hs</option>
+              <option value="horariodereserva">19:00hs</option>
+              <option value="horariodereserva">20:00hs</option>
+              <option value="horariodereserva">21:00hs</option>
+              <option value="horariodereserva">22:00hs</option>
+            </select>
+          </div>
+          <div>
+            <label for="limpiarformulario">
+              <input type="reset" id="limpiarformulario" name="limpiarformulario" />
+            </label>
+          </div>
+          <label for="submit">  
+                    
+            <input type="submit" id="boton" /> 
+          </label>         
       </fieldset>
     </form>
     <!-- Footer con social media -->

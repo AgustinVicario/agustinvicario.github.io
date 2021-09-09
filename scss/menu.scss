@@ -15,9 +15,19 @@
 
 .menu-group-heading {
   margin: 0;
-  padding-bottom: 1em;
+  padding-bottom: 1px;
   border-bottom: 2px solid $ColorNav;
-  color: $Color2;
+  display: flex;
+  justify-content: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background: #ccc;
+  text-transform: uppercase;
+  background: linear-gradient(#00a000, white, red);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu-group {

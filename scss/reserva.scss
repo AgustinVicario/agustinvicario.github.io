@@ -2,13 +2,21 @@
 
 .tituloreserva {
   display: flex;
-  color: white;
   justify-content: center;
-  text-decoration: underline;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background: #ccc;
+  text-transform: uppercase;
+  background: linear-gradient(#00a000, white, red);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .textoreserva {
   text-align: center;
+  font-family: monospace;
   font-weight: 200;
   letter-spacing: 5px;
   font-family: cursive;
@@ -17,7 +25,16 @@
 
 fieldset {
   legend {
-    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: $ColorFondoBoton;
+
+    text-transform: uppercase;
+    color: $ColorFondoBoton;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   textarea {
     min-height: 200px;
@@ -27,20 +44,23 @@ fieldset {
   }
 }
 label input {
+  display: flex;
   color: white;
   font-size: 20px;
 }
 input {
+  display: flex;
   width: 100%;
   margin-bottom: 10px;
   box-sizing: border-box;
 }
 
-#boton {
+/* Botones de Reserva y contactos */
+input[type="reset"]:hover,
+input[type="reset"]:focus {
+  background: $Color3;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus {
   background: $ColorFondoBoton;
-  color: $Fondo;
-  padding: 20px;
-  #boton:hover {
-    cursor: pointer;
-  }
 }

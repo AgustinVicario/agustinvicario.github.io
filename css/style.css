@@ -37,6 +37,7 @@ body {
 .text {
   display: flex;
   justify-content: center;
+  text-align: center;
   background: #ccc;
   text-transform: uppercase;
   background: linear-gradient(#00a000, white, red);
@@ -141,13 +142,25 @@ footer {
 .redes-container ul li .whatsapp:hover {
   background: #00bb2d; }
 
-.textofooter {
+/* .textofooter {
   display: flex;
   justify-content: space-between;
   color: white;
   justify-content: center;
   font-size: 30px;
-  text-decoration: underline; }
+  text-decoration: underline;
+} */
+.textofooter {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  background: #ccc;
+  text-transform: uppercase;
+  background: linear-gradient(#00a000, white, red);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 /**MENU**/
 /* Aplicacion de flexbox */
@@ -162,9 +175,18 @@ footer {
 
 .menu-group-heading {
   margin: 0;
-  padding-bottom: 1em;
+  padding-bottom: 1px;
   border-bottom: 2px solid #6c6d6c;
-  color: white; }
+  display: flex;
+  justify-content: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background: #ccc;
+  text-transform: uppercase;
+  background: linear-gradient(#00a000, white, red);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .menu-group {
   display: grid;
@@ -200,19 +222,34 @@ footer {
 /**RESERVAS**/
 .tituloreserva {
   display: flex;
-  color: white;
   justify-content: center;
-  text-decoration: underline; }
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background: #ccc;
+  text-transform: uppercase;
+  background: linear-gradient(#00a000, white, red);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .textoreserva {
   text-align: center;
+  font-family: monospace;
   font-weight: 200;
   letter-spacing: 5px;
   font-family: cursive;
   font-style: italic; }
 
 fieldset legend {
-  color: white; }
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #55d9a1;
+  text-transform: uppercase;
+  color: #55d9a1;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 fieldset textarea {
   min-height: 200px;
@@ -221,20 +258,24 @@ fieldset textarea {
   width: 100%; }
 
 label input {
+  display: flex;
   color: white;
   font-size: 20px; }
 
 input {
+  display: flex;
   width: 100%;
   margin-bottom: 10px;
   box-sizing: border-box; }
 
-#boton {
-  background: #55d9a1;
-  color: black;
-  padding: 20px; }
-  #boton #boton:hover {
-    cursor: pointer; }
+/* Botones de Reserva y contactos */
+input[type="reset"]:hover,
+input[type="reset"]:focus {
+  background: red; }
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: #55d9a1; }
 
 /**CONTACTO**/
 fieldset legend {
@@ -254,13 +295,6 @@ input {
 label {
   color: white;
   font-size: 20px; }
-
-#boton {
-  background: #55d9a1;
-  color: black;
-  padding: 20px; }
-  #boton #boton:hover {
-    cursor: pointer; }
 
 /**SUCURSALES**/
 table,
