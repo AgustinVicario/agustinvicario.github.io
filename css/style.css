@@ -18,10 +18,13 @@ body {
 
 /* Extend */
 .formulario, .formulario1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
-  border-radius: 7px;
+  border-radius: 10px;
   color: black;
-  background-color: rgba(124, 124, 124, 0.445);
+  background-color: rgba(56, 56, 56, 0.445);
   text-align: center;
   width: 750px;
   height: auto;
@@ -142,16 +145,16 @@ footer {
 .redes-container ul li .whatsapp:hover {
   background: #00bb2d; }
 
-/* .textofooter {
+footer {
   display: flex;
-  justify-content: space-between;
-  color: white;
   justify-content: center;
-  font-size: 30px;
-  text-decoration: underline;
-} */
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+
 .textofooter {
   display: flex;
+  align-items: center;
   justify-content: center;
   text-align: center;
   font-size: 30px;
@@ -221,8 +224,6 @@ footer {
 
 /**RESERVAS**/
 .tituloreserva {
-  display: flex;
-  justify-content: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-align: center;
   background: #ccc;
@@ -253,11 +254,9 @@ fieldset legend {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-fieldset textarea {
-  min-height: 200px;
-  max-height: 200px;
-  max-width: 100%;
-  width: 100%; }
+label {
+  color: white;
+  font-size: 20px; }
 
 label input {
   display: flex;
@@ -336,7 +335,7 @@ a {
 
 .tarjeta {
   display: flex;
-  background-color: #cccccc;
+  background-color: #d1d1d1;
   border-radius: 15px;
   padding: 20px;
   align-items: center;

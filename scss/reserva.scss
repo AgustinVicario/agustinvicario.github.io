@@ -1,8 +1,6 @@
 /**RESERVAS**/
 
 .tituloreserva {
-  display: flex;
-  justify-content: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
@@ -32,19 +30,16 @@ fieldset {
     justify-content: center;
     text-align: center;
     background: $ColorFondoBoton;
-
     text-transform: uppercase;
     color: $ColorFondoBoton;
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  textarea {
-    min-height: 200px;
-    max-height: 200px;
-    max-width: 100%;
-    width: 100%;
-  }
+}
+label {
+  color: white;
+  font-size: 20px;
 }
 label input {
   display: flex;
