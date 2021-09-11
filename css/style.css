@@ -283,10 +283,10 @@ fieldset legend {
   color: white; }
 
 fieldset textarea {
-  min-height: 200px;
-  max-height: 200px;
-  max-width: 100%;
-  width: 100%; }
+  min-height: 100px;
+  max-height: 100px;
+  max-width: 80%;
+  width: 80%; }
 
 input {
   width: 100%;
