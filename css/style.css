@@ -243,6 +243,12 @@ footer {
   letter-spacing: 5px;
   font-style: italic; }
 
+.container form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box; }
+
 fieldset legend {
   display: flex;
   justify-content: center;
@@ -294,6 +300,12 @@ input {
   box-sizing: border-box; }
 
 /**SUCURSALES**/
+.container table {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box; }
+
 table,
 th,
 td {
