@@ -11,7 +11,7 @@
       src="https://kit.fontawesome.com/83ab592238.js"
       crossorigin="anonymous"
     ></script>
-    <meta name="description" content="Este sitio es la pagina principal del restaurante Il Piccolli">
+    <meta name="description" content="Pagina principal del restaurante Il Piccolli">
     <meta name="keywords" content="Il Piccolli, comida, italia,">
     <!-- Titulo -->
     <title>Inicio - Il Piccolli</title>
@@ -23,7 +23,7 @@
       <header class="header">
         <!-- LOGO -->
         <div class="logo">
-          <img src="img/logo.png" alt="Logodelrestaurant" />
+          <img src="img/logo.png" alt="Logodelrestaurant" srcset="img/logo.png 1x">
         </div>   
         <!-- Slogan -->
         <h2 class="text">Come la casa di mamma</h2> 
@@ -89,32 +89,35 @@
       <div class="nuestroslocales">
         <h2>Nuestros locales</h2>
       </div>
-      <div class="mapas">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d690.478648159039!2d-58.42604199881879!3d-34.591807335887914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca78f12efe6b%3A0x2b4c71cdeb63a227!2sHonduras%204568%2C%20C1414BMH%20CABA!5e0!3m2!1ses!2sar!4v1625187990465!5m2!1ses!2sar"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.176483890853!2d-58.44282798423631!3d-34.62498016613161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca37f1a6d71f%3A0x807287565e4e0fe9!2sValle%20901%2C%20C1424BVS%20CABA!5e0!3m2!1ses!2sar!4v1625670263374!5m2!1ses!2sar"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.286808172268!2d-58.43426648423761!3d-34.57160876330797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5bd848f0445%3A0x7f5a9925eba956c0!2sB%C3%A1ez%20390%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1625670087727!5m2!1ses!2sar"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
-      </div>
+        <div class="mapas">
+          <iframe
+            title="Mapa Palermo"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d690.478648159039!2d-58.42604199881879!3d-34.591807335887914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca78f12efe6b%3A0x2b4c71cdeb63a227!2sHonduras%204568%2C%20C1414BMH%20CABA!5e0!3m2!1ses!2sar!4v1625187990465!5m2!1ses!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <iframe
+            title="Mapa Caballito"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.176483890853!2d-58.44282798423631!3d-34.62498016613161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca37f1a6d71f%3A0x807287565e4e0fe9!2sValle%20901%2C%20C1424BVS%20CABA!5e0!3m2!1ses!2sar!4v1625670263374!5m2!1ses!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <iframe
+            title="Mapa Las Cañitas"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.286808172268!2d-58.43426648423761!3d-34.57160876330797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5bd848f0445%3A0x7f5a9925eba956c0!2sB%C3%A1ez%20390%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1625670087727!5m2!1ses!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
       <br />
     </main>
     <!-- Footer con social media -->
@@ -122,22 +125,22 @@
       <div class="redes-container">
         <ul>
           <li>
-            <a href="#" class="facebook">
+            <a href="#" aria-label="facebook" target="_blank" rel="noopener" class="facebook">
               <i class="fab fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a href="#" class="twitter">
+            <a href="#" aria-label="twitter" target="_blank" rel="noopener" class="twitter">
               <i class="fab fa-twitter-square"></i>
             </a>
           </li>
           <li>
-            <a href="#" class="instagram">
+            <a href="#" aria-label="instagram" target="_blank" rel="noopener" class="instagram">
               <i class="fab fa-instagram"></i>
             </a>
           </li>
           <li>
-            <a href="#" class="whatsapp">
+            <a href="#" aria-label="whatsapp" target="_blank" rel="noopener" class="whatsapp">
               <i class="fab fa-whatsapp"></i>
             </a>
           </li>
@@ -148,8 +151,8 @@
       </div>
     </footer>    
           <!-- Aplicando bootstrap -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
   </body>
 </html>
